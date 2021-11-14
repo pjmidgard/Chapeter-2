@@ -3,6 +3,15 @@
 ['F', 'A', 'C', 'C', 'B', 'A', 'A']
 """
 
+#An interesting application of bisect is to perform table lookups by numeric values, for
+#example to convert test scores to letter grades,
+
+#which also lists
+#functions to use bisect as a faster replacement for the index method when searching
+#through long ordered sequences of numbers.
+#These functions are not only used for searching, but also for inserting items in sorted
+#sequences, as the following section shows.
+
 import bisect
 
 
