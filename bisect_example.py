@@ -63,8 +63,6 @@ def demo(bisect_fn):
         offset = position * '  |'
         print(ROW_FMT.format(needle, position, offset))
 
-#These functions are not only used for searching, but also for inserting items in sorted
-#sequences, as the following section shows
 
 
 def main():
